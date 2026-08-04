@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Search</name>
+   <tag></tag>
+   <elementGuidId>9c7fbf59-9c57-48bd-8974-6f3325e1cc36</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.oxd-button--secondary.oxd-button.orangehrm-left-space</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' oxd-button--secondary ') and contains(concat(' ', normalize-space(@class), ' '), ' oxd-button ') and contains(concat(' ', normalize-space(@class), ' '), ' orangehrm-left-space ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Search&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ce336726-dd45-4a06-8a53-31b23d54c00c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>2ee45552-0b8b-4e6d-bd6d-f303e3eabe20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space</value>
+      <webElementGuid>857d4f0a-7076-4987-8324-5f91a4fbfc09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Search </value>
+      <webElementGuid>e289f358-f8c4-4edc-8822-7acded0b0788</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-2d6edda063a6c1581f735efad8b924ac</value>
+      <webElementGuid>0b1bb17c-98d2-4da0-8400-43d0de1094a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' oxd-button--secondary ') and contains(concat(' ', normalize-space(@class), ' '), ' oxd-button ') and contains(concat(' ', normalize-space(@class), ' '), ' orangehrm-left-space ')]</value>
+      <webElementGuid>4bdb86c4-0f8b-4a53-8ec7-4648456c72e6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' oxd-button--secondary ') and contains(concat(' ', normalize-space(@class), ' '), ' oxd-button ') and contains(concat(' ', normalize-space(@class), ' '), ' orangehrm-left-space ')]</value>
+      <webElementGuid>644097b6-ba93-45ca-a89d-fc7ee29992e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = ' Search ' or . = ' Search ')]</value>
+      <webElementGuid>cf47d6be-8083-400b-97dc-8e78e7a39bf7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

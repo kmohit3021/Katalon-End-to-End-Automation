@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002 Search User OrangeHrmLive Application</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1de1e15b-1fd7-4a4f-94e9-6610705fbaf7</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Admin</name>
+   <tag></tag>
+   <elementGuidId>d537b2c4-a121-4735-850e-8229291438ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[href=&quot;\/web\/index\.php\/admin\/viewAdminModule&quot;] .oxd-main-menu-item--name</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@href = '/web/index.php/admin/viewAdminModule']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' oxd-main-menu-item--name ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Admin&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fcfd8b4e-4465-4a9e-8bb9-bad5c0db2ac6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-text oxd-text--span oxd-main-menu-item--name</value>
+      <webElementGuid>379364f4-1b63-4665-a587-2d9bf038a140</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Admin</value>
+      <webElementGuid>e9d42c7c-e89f-4ed2-917a-cbabc4e45b7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-2f147b3c172dedeef4e37614de641b48</value>
+      <webElementGuid>c1d4bd1e-af57-483f-ac86-598084219110</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@href = '/web/index.php/admin/viewAdminModule']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' oxd-main-menu-item--name ')]</value>
+      <webElementGuid>236f281a-f832-499c-8354-1f2c408d0638</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@href = '/web/index.php/admin/viewAdminModule']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' oxd-main-menu-item--name ')]</value>
+      <webElementGuid>e8c9aca3-1dd5-49a3-baa1-a122e519b7bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Admin' or . = 'Admin')]</value>
+      <webElementGuid>6ccfc90a-c1a5-4d2b-a00d-a98bb690fcba</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

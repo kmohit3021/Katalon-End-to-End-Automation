@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Leave</name>
+   <tag></tag>
+   <elementGuidId>f6e1ca13-0c36-4cc8-bd10-2824fa805952</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[href=&quot;\/web\/index\.php\/leave\/viewLeaveModule&quot;] .oxd-main-menu-item--name</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@href = '/web/index.php/leave/viewLeaveModule']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' oxd-main-menu-item--name ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Leave&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a9172ffc-2d22-45bf-813b-789d0bd0d8b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-text oxd-text--span oxd-main-menu-item--name</value>
+      <webElementGuid>0c9902f5-e35b-4a63-9f9a-21c257b47a68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Leave</value>
+      <webElementGuid>261d410b-515e-4f6e-832c-ed33b8f08e17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-90519252a00e508009fd06b5ebfdc672</value>
+      <webElementGuid>be99bb10-bb79-4cca-9e6b-fde2959dfd43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@href = '/web/index.php/leave/viewLeaveModule']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' oxd-main-menu-item--name ')]</value>
+      <webElementGuid>13ff55fe-27e2-40a0-bd3a-93e2a6dddc09</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@href = '/web/index.php/leave/viewLeaveModule']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' oxd-main-menu-item--name ')]</value>
+      <webElementGuid>9f441ee4-435f-41f3-9664-f8900327ad35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Leave' or . = 'Leave')]</value>
+      <webElementGuid>b79e118d-fc2e-43ce-9562-5269c7706cf1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
