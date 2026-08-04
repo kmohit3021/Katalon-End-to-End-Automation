@@ -17,16 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(null)
+WebUI.callTestCase(findTestCase('OrangeHrmLive/TC001 Login into OrangeHrmLive Application'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+WebUI.assertElementText(findTestObject('OrangeHrmLive/Page_OrangeHRM/h6_Dashboard'), 'Dashboard', 30)
 
-WebUI.setText(findTestObject('OrangeHrmLive/Page_OrangeHRM/input_Username'), 'Admin')
+WebUI.click(findTestObject('OrangeHrmLive/Page_OrangeHRM/span_Admin'))
 
-WebUI.setEncryptedText(findTestObject('OrangeHrmLive/Page_OrangeHRM/input_Password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.setText(findTestObject('OrangeHrmLive/Page_OrangeHRM/input_oxd-input oxd-input-active'), 'mohit kumar')
 
-WebUI.click(findTestObject('OrangeHrmLive/Page_OrangeHRM/button_Login'))
+WebUI.click(findTestObject('OrangeHrmLive/Page_OrangeHRM/button_Search'))
 
-WebUI.assertElementPresent(findTestObject('OrangeHrmLive/Page_OrangeHRM/h6_Dashboard'), 30)
+WebUI.click(findTestObject('OrangeHrmLive/Page_OrangeHRM/button_Reset'))
 
+WebUI.click(findTestObject('OrangeHrmLive/Page_OrangeHRM/button_Add'))
+
+WebUI.assertElementText(findTestObject('OrangeHrmLive/Page_OrangeHRM/h6_Add User'), 'Add User', 30)
+
+WebUI.click(findTestObject('OrangeHrmLive/Page_OrangeHRM/span_My Info'))
+
+WebUI.assertElementText(findTestObject('OrangeHrmLive/Page_OrangeHRM/h6_Personal Details'), 'Personal Details', 30)
+
+WebUI.closeBrowser()
 
