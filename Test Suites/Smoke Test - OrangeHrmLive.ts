@@ -27,4 +27,11 @@
       <testCaseId>Test Cases/OrangeHrmLive/TC001 Login into OrangeHrmLive Application</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c61568f6-ba1f-4630-9fa8-075964f775f6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OrangeHrmLive/TC003 Execute the reset search operation</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
